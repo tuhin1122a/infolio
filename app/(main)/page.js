@@ -1,11 +1,21 @@
+"use client";
 import About from "@/components/About";
+import CustomCursor from "@/components/CustomCursor";
 import HeroSection from "@/components/HeroSection";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <div>
-      <HeroSection />
-      <About />
-    </div>
+    <>
+      <CustomCursor />
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+      >
+        <HeroSection />
+        <About />
+      </motion.div>
+    </>
   );
 }

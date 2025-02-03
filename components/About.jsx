@@ -4,8 +4,8 @@ export default function About() {
   return (
     <>
       <div
-        className="bg-white w-full h-auto py-12 px-10 flex flex-col md:flex-row items-center justify-between 
-    relative md:absolute md:-bottom-80 z-50 shadow-lg bg-[url('/background.svg')] bg-cover bg-center"
+        className="bg-slate-100 w-full h-auto py-12 px-10 flex flex-col md:flex-row items-center justify-between 
+    relative md:absolute md:-bottom-80 shadow-lg bg-[url('/1.svg')] bg-cover bg-center"
       >
         {/* Left Side - Contact Info */}
         <div className="w-full md:w-2/5 px-6 text-center md:text-left">
