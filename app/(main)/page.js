@@ -2,6 +2,7 @@
 import About from "@/components/About";
 import CustomCursor from "@/components/CustomCursor";
 import HeroSection from "@/components/HeroSection";
+import ServicesSection from "@/components/ServicesSection";
 import { motion } from "framer-motion";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       >
         <HeroSection />
         <About />
+        <ServicesSection />
       </motion.div>
     </>
   );
